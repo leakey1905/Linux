@@ -4,3 +4,8 @@ sudo xrandr --addmode HDMI1 2560x1080_60.00
 sudo xrandr --output HDMI1 --mode 2560x1080_60.00
 
 xrandr --output HDMI1 --left-of HDMI2 # set left-right-of position of two screens
+
+# update @ 20170619
+# Turn on or off the screen
+xrandr --output HDMI1 --auto
+xrandr --output HDMI1 --off
